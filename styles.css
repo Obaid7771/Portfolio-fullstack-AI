@@ -1282,6 +1282,25 @@ button {
     color: var(--text-secondary);
 }
 
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.footer-social .social-link {
+    color: var(--primary-light);
+    border-color: rgba(99, 102, 241, 0.4);
+}
+
+.footer-social .social-link:hover {
+    color: var(--text-primary);
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
 .footer-bottom {
     display: flex;
     justify-content: space-between;
