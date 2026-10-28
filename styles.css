@@ -602,6 +602,10 @@ button {
     line-height: 1.8;
 }
 
+.about-text .btn {
+    margin: 0 8px 8px 0;
+}
+
 .about-highlights {
     display: flex;
     flex-direction: column;
